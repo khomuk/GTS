@@ -1,0 +1,51 @@
+.work {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.work__container {
+  display: flex;
+}
+.work__content {
+  margin-top: 121px;
+  width: 50%;
+  padding-right: 85px;
+}
+.work__title {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: -0.07em;
+
+  margin-bottom: 50px;
+}
+.work__desc {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: -0.025em;
+
+  margin-bottom: 60px;
+}
+.work__btn {
+  font-size: 16px;
+  line-height: 200%;
+  letter-spacing: -0.025em;
+
+  width: 273px;
+  padding: 8px 25px;
+
+  text-transform: none;
+  color: var(--main-color);
+
+  background-image: url(/img/svg/mini_arrow.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center right 25px;
+
+  border-radius: 100px;
+}
+.work__img {
+  width: 50%;
+}

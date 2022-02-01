@@ -8,6 +8,10 @@
   align-items: center;
 }
 .service__title {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 175px;
+
   font-weight: 600;
   font-size: 39px;
   line-height: 130%;
@@ -16,8 +20,9 @@
   color: var(--light-color);
 
   background-image: url(/img/services.jpg);
-  background-size: contain;
+  background-size: auto;
   background-repeat: no-repeat;
+  background-position: 60px 0;
   width: 490px;
   height: 750px;
 }
@@ -33,7 +38,7 @@
 
   color: var(--light-color);
 
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 .list__item {
   font-size: 18px;
