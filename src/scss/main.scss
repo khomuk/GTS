@@ -1,0 +1,18 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/btns";
+@import './components/nav';
+@import './components/hero';
+@import './components/benefits';
+@import './components/service';
+
+
+* {
+  font-family: Montserrat, sans-serif;
+}

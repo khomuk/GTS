@@ -1,0 +1,37 @@
+.hero {
+  margin-top: 100px;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero__content {
+  width: 50%;
+}
+.content__title {
+  margin-bottom: 50px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 53px;
+  line-height: 130%;
+  letter-spacing: -0.025em;
+
+  color: var(--black-color);
+}
+.content__desc {
+  font-size: 21px;
+  line-height: 130%;
+  margin-bottom: 60px;
+  max-width: 70%;
+
+  color: var(--black-color);
+}
+.content__btn {
+  text-transform: uppercase;
+}
+.hero__img {
+  width: 50%;
+}

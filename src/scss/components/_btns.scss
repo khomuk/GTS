@@ -1,0 +1,27 @@
+.prime-btn {
+  border: 1px solid var(--main-color);
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  padding: 4px 40px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+.sec-btn {
+  background: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 20px;
+  color: white;
+  padding: 4px 40px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 200%;
+}
