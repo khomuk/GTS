@@ -1,0 +1,22 @@
+.callto {
+  background-color: var(--blue-color);
+  padding: 50px 0 60px;
+}
+.callto__container {
+  background-color: #eeeeee;
+  @include flex-all-sb;
+  padding: 10px 60px;
+  margin-right: -13px;
+
+  -webkit-box-shadow: -10px 10px 0px 0px rgba(246, 109, 70, 1);
+  -moz-box-shadow: -10px 10px 0px 0px rgba(246, 109, 70, 1);
+  box-shadow: -10px 10px 0px 0px rgba(246, 109, 70, 1);
+}
+.callto__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 200%;
+  letter-spacing: -0.07em;
+
+  color: var(--black-color);
+}
