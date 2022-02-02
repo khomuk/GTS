@@ -1,0 +1,13 @@
+.partners {
+  padding-bottom: 200px;
+}
+.partners__title {
+  margin-bottom: 70px;
+
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: -0.07em;
+}
+.partners__imgs {
+  @include flex-all-sb;
+}
