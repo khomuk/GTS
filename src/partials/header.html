@@ -20,17 +20,22 @@
       <div class="header__logo">
         <a href="/"><img src="img/logo.png" alt="GTS Logo" /></a>
       </div>
-      <div class="header__nav nav flex">
-        <div class="nav__item"><a href="">Команда</a></div>
-        <div class="nav__item"><a href="">Услуги</a></div>
-        <div class="nav__item"><a href="">Карьера</a></div>
-        <div class="nav__item"><a href="">Контакты</a></div>
-      </div>
+      <nav class="header__nav nav flex" title="Main menu" data-menu>
+        <ul class="nav__list flex menu__active">
+          <li class="nav__item"><a href="#" class="nav__link">Команда</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Услуги</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Карьера</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
       <div class="header__imgs imgs flex">
         <div class="header__btn btn-reset prime-btn">Заказать звонок</div>
         <div class="imgs__item"><img src="img/svg/volvo.svg" alt=""></div>
         <div class="imgs__item"><img src="img/svg/renault.svg" alt=""></div>
       </div>
+      <button class="burger" aria-label="Открыть меню" aria-expanded="false"  data-burger>
+        <span class="burger__line"></span>
+      </button>
     </div>
   </div>
 </header>

@@ -8,32 +8,53 @@
 
   color: var(--grey-color);
 }
-.section__container {
-}
 .contacts__title {
   margin-bottom: 70px;
   letter-spacing: -0.07em;
   font-size: 35px;
-}
-.title {
 }
 .contacts__main {
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
 }
-.contacts__list {
-}
+
 .contacts__adress {
   margin-bottom: 25px;
 }
 .contacts__geo {
   margin-bottom: 25px;
 }
-.contacts__phone {
+.contacts__mail{
+  margin-bottom: 50px;
 }
-.contacts__mail {
+
+.social {
+  display: flex;
+  align-items: center;
 }
+
+.social__item {
+  margin-right: 40px;
+}
+
+.social__link {
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+}
+
+.social__link--fb {
+  background-image: url(/img/svg/facebook.svg);
+}
+
+.social__link--inst {
+  background-image: url(/img/svg/insta.svg);
+}
+
 .conacts__map {
   display: flex;
 
@@ -52,10 +73,7 @@
   display: flex;
   justify-content: space-between;
 }
-.contacts__service {
-}
-.subcont {
-}
+
 .subcont__title {
   font-weight: 500;
   font-size: 31px;
@@ -82,8 +100,4 @@
 
   color: #9d9d9d;
   margin-bottom: 15px;
-}
-.contacts__trucking {
-}
-.contacts__accounting {
 }
