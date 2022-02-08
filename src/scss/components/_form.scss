@@ -1,0 +1,41 @@
+.form {
+  max-width: 800px;
+}
+.form__title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 130%;
+  letter-spacing: -0.025em;
+}
+.form__subtitle {
+  margin-left: 575px;
+  margin-bottom: 100px;
+}
+.form__row{
+  display: flex;
+}
+.form__field {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.form__field--inline {
+  &:not(:last-child){
+    margin-right: 30px;
+  }
+}
+.form__input {
+  background-color: transparent;
+  color: var(--white-color);
+  padding-left: 9.5px;
+  height: 35px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #5d687f;
+  outline: none;
+}
+.form__btn{
+  max-width: 257px;
+  text-transform: none;
+}
