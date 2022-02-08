@@ -1,0 +1,35 @@
+/* реализация плейсхолдера */
+.place_holder {
+  left: 10px;
+  cursor: text;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: none;
+  color: #5d687f;
+
+  background: transparent;
+  pointer-events: none;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+.placeinput input:valid + .place_holder {
+  opacity: 0;
+}
+.placeinput input:not(:focus) + .place_holder {
+  display: inline;
+}
+/*вся проблема в том, если placeholder больше инпута*/
+.placeinput {
+  position: relative;
+  overflow: hidden;
+}
+.place_holder span {
+  color: #f66d46;
+  padding-left: 5px;
+}
+/* конец реализации плейсхолдера */
