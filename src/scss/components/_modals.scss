@@ -1,0 +1,98 @@
+.my-modal {
+  background-color: var(--blue-color);
+  padding: 100px 70px;
+  color: var(--light-color);
+  position: relative;
+}
+.graph-modal__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modal__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.025em;
+
+  margin-bottom: 60px;
+}
+.modal__nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 35px;
+}
+.modal__btn {
+  @include flex-all-center;
+  text-align: center;
+  padding: 20px 33px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -0.025em;
+
+  border-radius: 50px;
+  transition: 0.25s;
+
+  &:hover {
+    background-color: var(--main-color);
+    transition: 0.25s;
+  }
+
+  &:active {
+    background-color: #be5537;
+    border-color: #be5537;
+    transition: 0.1s;
+  }
+}
+
+.send__btn {
+  @include flex-all-center;
+  text-transform: none;
+  width: 253px;
+  height: 50px;
+  border-radius: 50px;
+  transition: 0.25s;
+}
+
+.btn-back {
+  img {
+    transform: rotate(180deg);
+  }
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  color: var(--light-color);
+}
+
+.modal-back-btn {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.graph-modal__close{
+  width: 30px;
+  height: 30px;
+  background-image: url(/img/svg/cross.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+

@@ -15,6 +15,7 @@
 }
 .form__row {
   display: flex;
+  width: 100%;
 }
 .form__field {
   width: 100%;
@@ -51,22 +52,5 @@
   cursor: pointer;
   margin-bottom: 100px;
 }
-.footer__sign {
-width: 200%;
 
-  padding-bottom: 20px;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 200%;
-  letter-spacing: -0.025em;
 
-  color: #eeeeee;
-  span {
-    margin-right: 40px;
-    a {
-      font-weight: bold;
-    }
-  }
-}
