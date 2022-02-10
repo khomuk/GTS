@@ -11,3 +11,39 @@
 .partners__imgs {
   @include flex-all-sb;
 }
+.partners__img{
+  width: 20%;
+  height: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.3s;
+}
+.partner1 {
+  background-image: url(/img/partner1_black.png);
+  &:hover {
+    background-image: url(/img/partner1_color.png);
+    transition: 0.3s;
+  }
+}
+.partner2 {
+  background-image: url(/img/partner2_black.png);
+  &:hover {
+    background-image: url(/img/partner2_color.png);
+    transition: 0.3s;
+  }
+}
+.partner3 {
+  background-image: url(/img/partner3_black.png);
+  &:hover {
+    background-image: url(/img/partner3_color.png);
+    transition: 0.3s;
+  }
+}
+.partner4 {
+  background-image: url(/img/partner4_black.png);
+  &:hover {
+    background-image: url(/img/partner4_color.png);
+    transition: 0.3s;
+  }
+}

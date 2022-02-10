@@ -2,6 +2,8 @@
   background-color: var(--blue-color);
   color: var(--light-color);
   padding-top: 100px;
+
+  padding-bottom: 100px;
 }
 .container {
 }
@@ -12,13 +14,18 @@
 .footer__form {
 }
 .footer__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.footer__logo{
-  margin-bottom: 60px;
+.footer__logo {
+  margin-top: 50px;
+  margin-bottom: 55px;
+  max-width: 90px;
 }
 .footer__nav {
-  .nav__item{
-    &:not(:last-child){
+  .nav__item {
+    &:not(:last-child) {
       margin-bottom: 60px;
     }
   }
@@ -43,8 +50,8 @@
     transition: all 0.3s ease;
   }
 }
-.footer__social{
-  margin-top: 95px;
+.footer__social {
+  margin-top: 90px;
 }
 
 .footer__sign {

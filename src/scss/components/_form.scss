@@ -46,11 +46,18 @@
   max-height: 46px;
   max-width: 275px;
   color: var(--white-color);
+  width: 100%;
   margin-right: 60px;
   padding-left: 25px;
   padding-right: 100px;
   cursor: pointer;
-  margin-bottom: 100px;
+
+}
+.form__btns{
+  display: flex;
+  align-items: center;
 }
 
+.form__file{
 
+}
