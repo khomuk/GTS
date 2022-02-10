@@ -6,7 +6,11 @@
       <button class="btn btn-reset content__btn sec-btn" data-graph-path="main__modal" data-graph-speed="200">Оставить заявку</button>
     </div>
     <div class="hero__img img">
-      <img src="img/main.jpg" alt="Main IMG GTS">
+      <picture>
+        <source srcset="img/main.avif" type="image/avif">
+        <source srcset="img/main.webp" type="image/webp">
+        <img loading="lazy" src="img/main.jpg" class="image" alt="Main IMG GTS">
+      </picture>
     </div>
   </div>
 </section>

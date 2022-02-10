@@ -1,0 +1,75 @@
+.vacancies {
+  padding-top: 100px;
+}
+.vacancies__container {
+}
+.vacancies__title {
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 130%;
+  letter-spacing: -0.07em;
+}
+.vacancies__desc {
+  text-align: right;
+  margin-top: -10px;
+  margin-bottom: 90px;
+
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -0.025em;
+}
+.vacancies__content {
+}
+.vacancies__table {
+  width: 100%;
+  border-collapse: collapse;
+
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -0.07em;
+
+  text-align: left;
+  vertical-align: top;
+
+  th {
+    color: #b2b2b2;
+    padding: 10px 0;
+    font-weight: 500;
+  }
+
+  td {
+    vertical-align: top;
+
+    font-weight: 500;
+    font-style: normal;
+    color: #222222;
+
+    padding: 10px 0;
+  }
+
+  tr {
+    border-bottom: 1px solid #b2b2b2;
+  }
+
+  button {
+    text-decoration-line: underline;
+    font-weight: 500;
+    color: var(--main-color);
+  }
+}
+
+.vacancies__img {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.col1 {
+  width: 30%;
+}
+.col2 {
+  width: 32%;
+}
+.col3 {
+}
+.col4 {
+  width: 10%;
+}
