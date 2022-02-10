@@ -1,5 +1,4 @@
 .contacts {
-  margin-top: 200px;
   margin-bottom: 200px;
 
   font-size: 18px;
@@ -108,3 +107,11 @@
   margin-bottom: 15px;
 }
 
+.contacts__header {
+  font-weight: 500;
+  font-size: 80px;
+  text-indent: 53px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: var(--black-color);
+}

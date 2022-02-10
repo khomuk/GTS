@@ -1,8 +1,6 @@
 .benefits {
   margin: 200px 0;
 }
-.benefits-container {
-}
 .benefits__title {
   font-weight: 600;
   font-size: 46px;
@@ -20,8 +18,8 @@
   justify-content: space-between;
 }
 .benefits__item {
-  max-width: 20%;
   padding-left: 10px;
+  max-width: 260px;
 }
 .benefits__header {
   font-weight: 600;
@@ -34,10 +32,6 @@
 .benefits__desc {
   font-weight: 500;
   font-size: 18px;
-  line-height: 130%;
-  letter-spacing: -0.025em;
 
   color: var(--black-color);
-
-  max-width: 200px;
 }
