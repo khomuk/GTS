@@ -1,0 +1,9 @@
+.offers__row{
+  @include flex-all-center
+}
+.offers__img{
+  width: 50%;
+}
+.offers__content{
+  width: 50%;
+}
