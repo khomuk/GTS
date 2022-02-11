@@ -1,9 +1,66 @@
-.offers__row{
-  @include flex-all-center
+.offers {
+  padding-top: 95px;
+  color: var(--black-color);
 }
-.offers__img{
-  width: 50%;
+.offers__container {
 }
-.offers__content{
+.offers__title {
+  font-weight: 500;
+  font-size: 80px;
+  text-indent: 62px;
+  margin-bottom: 100px;
+}
+.offers__list {
+}
+.offers__row {
+  @include flex-all-center;
+  max-height: 670px;
+  margin-bottom: 80px;
+}
+.offers__img {
   width: 50%;
+  height: 670px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.image__left{
+  object-position: left;
+}
+.image__right{
+  object-position: right;
+}
+.offers__content {
+  width: 50%;
+  padding-left: 120px;
+  padding-right: 110px;
+}
+.offers__header {
+  font-weight: 500;
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+.offers__desc {
+  font-size: 18px;
+  margin-bottom: 40px;
+  width: 85%;
+}
+.offers__btn {
+  @include flex-all-center;
+  font-size: 18px;
+  letter-spacing: -0.025em;
+}
+.btn__img {
+  background-image: url(/img/svg/long_arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100px;
+  height: 27px;
+  margin-left: 15px;
 }

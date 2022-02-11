@@ -1,0 +1,40 @@
+.team {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.team__container {
+}
+.team__header {
+  font-weight: 500;
+  font-size: 80px;
+}
+.team__subheader {
+  display: flex;
+  justify-content: flex-end;
+
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 100px;
+  margin-top: -18px;
+  min-width: 285px;
+}
+.team__content {
+  @include flex-all-sb;
+}
+.team__text {
+  width: 50%;
+  padding-right: 60px;
+}
+.team__title {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 160%;
+  margin-bottom: 35px;
+}
+.team__desc {
+  font-size: 18px;
+  line-height: 160%;
+
+}
+.team__image {
+}
