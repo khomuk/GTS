@@ -109,6 +109,11 @@
 .header__imgs {
   justify-content: space-between;
   align-items: center;
+  @include tablet {
+    width: 70%;
+    justify-content: flex-end;
+    margin-right: 24px;
+  }
 }
 .imgs__item {
   display: flex;

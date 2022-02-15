@@ -119,14 +119,15 @@ ul{
 
 .link {
   position: relative;
+  padding-bottom: 4px;
 }
 
 .link:after {
   content: "";
   position: absolute;
-  bottom: -4px;
+  bottom: -1px;
   right: 0;
-  height: 2px;
+  height: 1.4px;
   width: 100%;
   transform: scale(0, 1);
   transition: transform 0.3s;
@@ -134,6 +135,6 @@ ul{
   transform-origin: right top;
 }
 .link:hover:after {
-  transform: scale(1, 1);
+  transform: scale(1, 1.5);
   transform-origin: left top;
 }
