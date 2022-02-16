@@ -1,20 +1,37 @@
 .hero {
   margin-top: 100px;
 }
+
 .hero-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @include mini-mobile {
+    flex-direction: column-reverse;
+    align-items: unset;
+  }
 }
+
 .hero__content {
   width: 50%;
+  @include mini-mobile {
+    width: 100%;
+  }
 }
+
 .content__title {
   margin-bottom: 50px;
   color: var(--black-color);
 
   font-weight: 600;
   font-size: 53px;
+
+  @include mini-mobile {
+    font-size: 28px;
+    width: 90%;
+    margin-bottom: 24px;
+  }
 }
 
 .content__desc {
@@ -24,10 +41,27 @@
   max-width: 71%;
 
   color: var(--black-color);
+
+  @include mini-mobile {
+    max-width: 100%;
+    margin-bottom: 45px;
+  }
 }
+
 .content__btn {
   text-transform: uppercase;
+  @include mini-mobile {
+    width: 100%;
+  }
 }
+
 .hero__img {
   width: 50%;
+
+  @include mini-mobile {
+    width: 100%;
+    max-width: 342px;
+    height: auto;
+    margin-bottom: 30px;
+  }
 }

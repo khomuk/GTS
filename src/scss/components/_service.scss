@@ -1,11 +1,18 @@
 .service {
   background-color: var(--blue-color);
   padding: 125px 0;
+  @include tablet {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
 }
 .service__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @include tablet {
+    flex-direction: column;
+  }
 }
 .service__title {
   display: flex;
@@ -25,10 +32,19 @@
   background-position: 60px 0;
   width: 490px;
   height: 750px;
+  @include tablet{
+    width: 100%;
+    margin-bottom: 45px;
+    background-size: contain;
+  }
 }
 .service__list {
   margin-left: 110px;
   width: 600px;
+  @include tablet {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 .list__header {
   font-weight: 600;
@@ -39,6 +55,9 @@
   color: var(--light-color);
 
   margin-bottom: 60px;
+  @include tablet {
+    margin-bottom: 32px;
+  }
 }
 .list__item {
   font-size: 18px;
@@ -60,5 +79,9 @@
 
   &:not(:last-child){
     border-bottom: 1px solid rgba(213, 213, 213, 0.25);
+  }
+
+  @include tablet {
+    padding-right: 90px;
   }
 }

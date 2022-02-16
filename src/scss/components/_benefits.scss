@@ -1,26 +1,49 @@
 .benefits {
   margin: 200px 0;
+
+  @include mini-mobile {
+    margin-top: 70px;
+    margin-bottom: 72px;
+  }
 }
+
 .benefits__title {
   font-weight: 600;
   font-size: 46px;
   line-height: 200%;
   text-align: center;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.07em;
 
   color: var(--black-color);
 
   margin-bottom: 70px;
+
+  @include mini-mobile {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
 }
+
 .benefits__list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  @include mini-mobile {
+    flex-direction: column;
+    align-items: center;
+  }
 }
+
 .benefits__item {
   padding-left: 10px;
   max-width: 260px;
+  @include mini-mobile {
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 100%;
+  }
 }
+
 .benefits__header {
   font-weight: 600;
   font-size: 46px;
@@ -28,10 +51,18 @@
   letter-spacing: -0.07em;
 
   color: var(--main-color);
+  @include mini-mobile {
+    font-size: 34px;
+    margin-bottom: 16px;
+  }
 }
+
 .benefits__desc {
   font-weight: 500;
   font-size: 18px;
 
   color: var(--black-color);
+  @include mini-mobile {
+    font-size: 18px;
+  }
 }
