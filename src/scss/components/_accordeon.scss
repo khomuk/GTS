@@ -1,0 +1,95 @@
+.accordion__control {
+  width: 100%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.accordion__content {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+  will-change: max-height;
+  transition: all 0.3s ease-out;
+  box-sizing: content-box;
+}
+
+.accordion__title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: -0.07em;
+  color: var(--black-color);
+}
+
+.accordion__icon {
+  transition: transform 0.3s ease-out;
+}
+
+.open .accordion__icon {
+  transform: rotate(180deg);
+}
+
+.open .accordion__content {
+  opacity: 1;
+  padding: 20px;
+}
+
+
+/* Общие стили */
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.accordion {
+  width: 100%;
+  border-top: 1px solid var(--grey-color);
+}
+
+.accordion__list {
+  border-bottom: 1px solid var(--grey-color);
+}
+
+.accordion__control {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 16px;
+}
+
+.accordion__control::-webkit-details-marker {
+  display: none;
+}
+
+.accordion__title {
+  margin: 0;
+}
+
+.accordion__icon {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(/img/svg/list_arrow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.accordion[open] .accordion__content {
+  border-bottom: 1px solid var(--grey-color);
+}
+
+.accordion[open] .accordion__icon {
+  transform: rotate(180deg);
+}

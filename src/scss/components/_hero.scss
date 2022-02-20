@@ -1,5 +1,8 @@
 .hero {
   margin-top: 100px;
+  @include mobile-land {
+    margin-top: 60px;
+  }
 }
 
 .hero-container {
@@ -7,16 +10,22 @@
   align-items: center;
   justify-content: space-between;
 
-  @include mini-mobile {
+  @include mobile {
     flex-direction: column-reverse;
-    align-items: unset;
+    align-items: center;
   }
 }
 
 .hero__content {
   width: 50%;
-  @include mini-mobile {
+  @include mobile {
     width: 100%;
+  }
+
+  @include mobile-land {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -27,10 +36,18 @@
   font-weight: 600;
   font-size: 53px;
 
-  @include mini-mobile {
+  @include tablet {
+    font-size: 40px;
+  }
+
+  @include mobile {
     font-size: 28px;
     width: 90%;
     margin-bottom: 24px;
+  }
+
+  @include mobile-land {
+    width: 100%;
   }
 }
 
@@ -42,26 +59,34 @@
 
   color: var(--black-color);
 
-  @include mini-mobile {
+  @include mobile {
     max-width: 100%;
     margin-bottom: 45px;
+    width: 100%;
   }
 }
 
 .content__btn {
   text-transform: uppercase;
-  @include mini-mobile {
+  @include mobile {
     width: 100%;
+  }
+  @include mobile-land {
+    width: 60%;
+    align-items: center;
   }
 }
 
 .hero__img {
   width: 50%;
 
-  @include mini-mobile {
+  @include mobile {
     width: 100%;
-    max-width: 342px;
     height: auto;
     margin-bottom: 30px;
+  }
+
+  @include mobile-land {
+    width: 70%;
   }
 }

@@ -141,3 +141,16 @@ ul{
   transform: scale(1, 1.5);
   transform-origin: left top;
 }
+
+.mobile__img{
+  display: none;
+  @media (max-width: (1023px)) {
+    display: block;
+  }
+}
+
+.desktop__img{
+  @media (max-width: (1023px)) {
+    display: none;
+  }
+}

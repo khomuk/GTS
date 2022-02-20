@@ -114,7 +114,7 @@
     justify-content: flex-end;
     margin-right: 24px;
   }
-  @include mini-mobile {
+  @include mobile {
     display: none;
   }
 }
@@ -127,7 +127,7 @@
   }
 }
 .header__logo{
-  @include mini-mobile {
+  @include mobile {
     max-width: 170px;
   }
 }

@@ -1,7 +1,7 @@
 .benefits {
   margin: 200px 0;
 
-  @include mini-mobile {
+  @include tablet {
     margin-top: 70px;
     margin-bottom: 72px;
   }
@@ -18,7 +18,7 @@
 
   margin-bottom: 70px;
 
-  @include mini-mobile {
+  @include tablet {
     font-size: 28px;
     margin-bottom: 40px;
   }
@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  @include mini-mobile {
+  @include mobile {
     flex-direction: column;
     align-items: center;
   }
@@ -37,7 +37,7 @@
 .benefits__item {
   padding-left: 10px;
   max-width: 260px;
-  @include mini-mobile {
+  @include tablet {
     text-align: center;
     margin-bottom: 30px;
     max-width: 100%;
@@ -51,7 +51,7 @@
   letter-spacing: -0.07em;
 
   color: var(--main-color);
-  @include mini-mobile {
+  @include tablet {
     font-size: 34px;
     margin-bottom: 16px;
   }
@@ -62,7 +62,7 @@
   font-size: 18px;
 
   color: var(--black-color);
-  @include mini-mobile {
+  @include tablet {
     font-size: 18px;
   }
 }
