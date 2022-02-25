@@ -16,6 +16,11 @@
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
+  @include mobile {
+    font-size: 16px;
+    left: 5px;
+    white-space: nowrap;
+  }
 }
 .placeinput input:valid + .place_holder {
   opacity: 0;

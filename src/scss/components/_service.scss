@@ -6,6 +6,11 @@
     padding-top: 25px;
     padding-bottom: 25px;
   }
+
+  @media (max-width: (1023px)) and (min-width: (769px)) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 
 .service__container {
@@ -50,9 +55,15 @@
     height: 524px;
   }
 
-  @media (max-width: (1023px)) and (min-width: (550px)) {
-    padding-left: 20%;
-    background-position: calc(50%);
+  @media (max-width: (1023px)) and (min-width: (769px)) {
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: (768px)) and (min-width: (425px)) {
+    justify-content: center;
+    background-position: calc(50% + 100px);
+    margin-left: -160px;
   }
 }
 
@@ -111,4 +122,13 @@
   @include tablet {
     padding-right: 90px;
   }
+}
+
+.service__btn{
+  font-size: 18px;
+  line-height: 185%;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+  text-align: left;
+  color: var(--light-color);
 }

@@ -16,10 +16,19 @@
 .form__row {
   display: flex;
   width: 100%;
+  @include mobile {
+    flex-direction: column;
+  }
 }
 .form__field {
   width: 100%;
   margin-bottom: 59px;
+  @include tablet {
+    margin-bottom: 45px;
+  }
+  @include mobile {
+    margin-bottom: 35px;
+  }
 }
 .form__field--inline {
   &:not(:last-child) {

@@ -26,6 +26,23 @@
   }
 }
 
+.contacts__main-header {
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 130%;
+  letter-spacing: -0.07em;
+  color: var(--black-color);
+  text-indent: 53px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  @include tablet {
+    font-size: 28px;
+    margin: 32px 0;
+    text-indent: 0;
+  }
+}
+
 .contacts__title {
   margin-bottom: 70px;
   font-weight: 600;
@@ -118,6 +135,7 @@
 .contacts__departments {
   display: flex;
   justify-content: space-between;
+
   @media (max-width: (1023px)) {
     display: block;
   }

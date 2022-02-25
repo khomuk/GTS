@@ -1,5 +1,5 @@
 .top__header{
-  @include small-tablet {
+  @include tablet {
     display: none;
   }
 }
